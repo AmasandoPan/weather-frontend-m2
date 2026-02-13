@@ -46,6 +46,7 @@ He implementado la metodología **SMACSS** para la estructura de carpetas, combi
 **Modelo de cajas:** Aplicación técnica de padding, margins y borders para un layout limpio.
 
 **Responsividad Estricta:**
+
   **Móvil ($\le$ 420px):** Cards apiladas en una sola columna para lectura vertical.
 
   **Desktop ($\ge$ 1024px):** Layout multi-columna con espaciado coherente.
