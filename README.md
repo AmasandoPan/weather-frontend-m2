@@ -42,7 +42,7 @@ Si quieres clonar este proyecto y ejecutarlo en tu máquina local, sigue estos p
     ```
 2.  **Entra a la carpeta:**
     ```bash
-    cd weather-fronted-m2
+    cd weather-frontend-m2
     ```
 3.  **Abre el archivo `index.html`** en tu navegador favorito.
 
