@@ -1,5 +1,8 @@
 .weather-card {
-  border-radius: 15px;
+  @include box-shadow-soft;
+  padding: 20px; 
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
   transition: transform 0.3s ease;
   border: none;
   overflow: hidden;

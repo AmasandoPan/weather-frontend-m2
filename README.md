@@ -24,6 +24,19 @@ El proyecto fue construido utilizando el siguiente stack:
 * **Bootstrap 5:** Framework de diseño para componentes y grid.
 * **JavaScript (Vanilla):** Lógica de manipulación del DOM y consumo de datos en `assets/js/script.js`.
 
+
+## 🛠️ Actualización Módulo 3: Arquitectura y Estilos
+
+En esta fase, el proyecto migró a una arquitectura más robusta:
+* **Metodología:** Se utilizó **SMACSS** para la organización de archivos y **BEM** para la nomenclatura de clases dentro de los componentes.
+* **Preprocesador:** Implementación de **SASS** utilizando variables, anidamiento y mixins para optimizar el CSS.
+* **Framework:** Downgrade controlado a **Bootstrap 4** para gestión de Layout y Grid responsivo.
+* **Estructura SASS:**
+    * `base/`: Resets y variables de color.
+    * `layout/`: Estructura global (header/footer).
+    * `modules/`: Estilos específicos de la `weather-card`.
+    * `state/`: Clases de estado para diferentes condiciones climáticas.
+    
 ---
 
 ## 📸 Vista Previa
