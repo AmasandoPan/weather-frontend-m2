@@ -46,11 +46,10 @@ Los datos están organizados en un arreglo de objetos centralizado. Ejemplo de l
   estadoActual: "Soleado",
   pronosticoSemanal: [
     { dia: "Lunes", min: 15, max: 28, estado: "Soleado" },
-    { dia: "Martes", min: 14, max: 26, estado: "Nublado" },
-    // ... hasta completar 7 días
+    { dia: "Martes", min: 14, max: 26, estado: "Nublado" }
+    // ... total 7 días
   ]
 }
-```
 ---
 
 ## 📸 Vista Previa
