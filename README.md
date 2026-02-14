@@ -39,17 +39,31 @@ Puedes ver el proyecto funcionando aquí:
 Los datos están organizados en un arreglo de objetos centralizado. Ejemplo de la estructura utilizada:
 
 ```javascript
+
 {
-  id: 1,
-  nombre: "Santiago",
-  tempActual: 25,
-  estadoActual: "Soleado",
-  pronosticoSemanal: [
-    { dia: "Lunes", min: 15, max: 28, estado: "Soleado" },
-    { dia: "Martes", min: 14, max: 26, estado: "Nublado" }
-    // ... total 7 días
-  ]
+
+id: 1,
+
+nombre: "Santiago",
+
+tempActual: 25,
+
+estadoActual: "Soleado",
+
+pronosticoSemanal: [
+
+{ dia: "Lunes", min: 15, max: 28, estado: "Soleado" },
+
+{ dia: "Martes", min: 14, max: 26, estado: "Nublado" }
+
+// ... total 7 días
+
+]
+
 }
+
+```
+
 ---
 
 ## 📸 Vista Previa
@@ -75,8 +89,12 @@ Si quieres clonar este proyecto y ejecutarlo en tu máquina local, sigue estos p
 ## 👤 Autor
 
 Desarrollado con ❤️ por **AmasandoPan**.
-*Proyecto Clima M4 - 2026*
+_Proyecto Clima M4 - 2026_
 
 ---
+
 © 2026 BioWeather. Todos los derechos reservados.
-````
+
+```
+
+```
