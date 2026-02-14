@@ -38,7 +38,7 @@ Puedes ver el proyecto funcionando aquí:
 
 Los datos están organizados en un arreglo de objetos centralizado. Ejemplo de la estructura utilizada:
 
-``javascript
+```javascript
 {
   id: 1,
   nombre: "Santiago",
@@ -50,7 +50,7 @@ Los datos están organizados en un arreglo de objetos centralizado. Ejemplo de l
     // ... hasta completar 7 días
   ]
 }
-``
+```
 ---
 
 ## 📸 Vista Previa
