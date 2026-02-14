@@ -7,7 +7,7 @@
 ## 🚀 Demo en Vivo
 
 Puedes ver el proyecto funcionando aquí:  
-👉 **[VER PROYECTO EN GITHUB PAGES](https://amasandopan.github.io/weather-frontend-m3)**
+👉 **[VER PROYECTO EN GITHUB PAGES](https://amasandopan.github.io/weather-frontend-m4)**
 
 ---
 
@@ -58,8 +58,7 @@ pronosticoSemanal: [
 
 // ... total 7 días
 
-]
-
+ ]
 }
 
 ```
@@ -78,7 +77,7 @@ Si quieres clonar este proyecto y ejecutarlo en tu máquina local, sigue estos p
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/AmasandoPan/weather-frontend-m3.git]
+    git clone [https://github.com/AmasandoPan/weather-frontend-m4.git]
     ```
 2.  **Compilación de SASS:** Asegúrate de tener instalado Live Sass Compiler o similar para procesar `/scss/main.scss` hacia `/css/main.css`.
 
@@ -94,7 +93,3 @@ _Proyecto Clima M4 - 2026_
 ---
 
 © 2026 BioWeather. Todos los derechos reservados.
-
-```
-
-```
