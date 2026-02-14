@@ -38,7 +38,7 @@ Puedes ver el proyecto funcionando aquí:
 
 Los datos están organizados en un arreglo de objetos centralizado. Ejemplo de la estructura utilizada:
 
-````javascript
+``javascript
 {
   id: 1,
   nombre: "Santiago",
@@ -50,7 +50,7 @@ Los datos están organizados en un arreglo de objetos centralizado. Ejemplo de l
     // ... hasta completar 7 días
   ]
 }
-
+``
 ---
 
 ## 📸 Vista Previa
@@ -65,7 +65,7 @@ Si quieres clonar este proyecto y ejecutarlo en tu máquina local, sigue estos p
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/AmasandoPan/weather-frontend-m4.git]
+    git clone [https://github.com/AmasandoPan/weather-frontend-m3.git]
     ```
 2.  **Compilación de SASS:** Asegúrate de tener instalado Live Sass Compiler o similar para procesar `/scss/main.scss` hacia `/css/main.css`.
 
