@@ -1,7 +1,7 @@
-// 1. Función para buscar lugar por ID
+// Función para buscar lugar por ID
 const obtenerLugar = (id) => localidades.find((l) => l.id == id);
 
-// 2. Función para calcular estadísticas
+// Función para calcular estadísticas
 function calcularEstadisticas(pronostico) {
   let sumaMax = 0;
   let minSemana = pronostico[0].min;
@@ -37,12 +37,11 @@ function calcularEstadisticas(pronostico) {
   return { minSemana, maxSemana, promedioMax, conteoClimas, resumen };
 }
 
-// 3. Renderizado
+//Renderizado
 const idSel = localStorage.getItem("ciudadSeleccionada");
 const ciudad = obtenerLugar(idSel);
 
 if (ciudad) {
-  // ... (Tu código actual de rellenar datos principales) ...
   document.getElementById("det-nombre").innerText = ciudad.nombre;
   document.getElementById("det-temp").innerText = ciudad.tempActual;
   document.getElementById("det-estado").innerText = ciudad.estadoActual; 
@@ -60,7 +59,7 @@ if (ciudad) {
     `;
   document.getElementById("resumen-texto").innerText = stats.resumen;
 
-  // Renderizar lista de pronóstico (usando los datos reales del objeto)
+  // Renderizar lista de pronóstico 
   const lista = document.getElementById("lista-pronostico");
   ciudad.pronosticoSemanal.forEach((dia) => {
     lista.innerHTML += `
